@@ -1,0 +1,7 @@
+{
+  "name": "roku",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
