@@ -22,7 +22,7 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
-  dismissLogin () {
+  dismissLogin() {
     this.modalController.dismiss();
   }
 
