@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'home', loadChildren: './home/home.module#HomePageModule', canActivate: [AuthGuard] },
   { path: 'list', loadChildren: './list/list.module#ListPageModule', canActivate: [AuthGuard] },
 ];
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
